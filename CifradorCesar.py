@@ -6,7 +6,7 @@ def menu():
         with open(file,'r') as f:
             archivo =  f.read().replace('Ã±', '!9!')
             archivo = archivo.replace('Ã‘','!8!')
-            print(archivo)
+            
     except:
         print("Error con el archivo.\n")
     try:
